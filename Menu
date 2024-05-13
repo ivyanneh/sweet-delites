@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEET DELITES</title>
+</head>
+<body style="background-color: lightskyblue;">
+    <a href="index.html"> </a>
+    
+<div>
+
+    <h1>  WELCOME TO SWEET DELITES BAKERY SHOP</h1>
+    <p>Below is the menu with pictures showing the pastries offered</p>
+
+    <h2><i>Sweet Delicacies</i></h2>
+    <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images\Copy of Bakery Price Pricing List Menu Offers Card - Copy.jpeg" alt="Sweet Delicacies"width="800" height="500"/>
+    <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images\download (1) - Copy.jpeg" alt="Sweet Delicacies"width="800" height="500"/>
+  
+  
+    
+   
+
+    <table>
+        <thead>
+            <tr>
+                
+                <th><a href="Price List"> Price List</a></th>
+                <th><a href="Shop"> Shop</a></th>
+                <th><a href="Menu"> Menu</a></th>
+                <th><a href="About us">About us</a></th>
+                <th><a href="Custom orders"> Custom orders</a>
+                <th><a href="Gallery"> Gallery</a></th>
+                <th><a href="compliments and complains"> compliments and complains</a></th>
+                <th><a href="Contact us"> Contact us</a></th>
+
+            </tr>
+        </thead>
+    </table>
+          
+   </div>  
+</body>
+</html>
+
+
+ 
