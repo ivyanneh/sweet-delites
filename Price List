@@ -18,7 +18,8 @@
     <table>
         <thead>
             <tr>
-                
+
+                <th><a href="index.html"> homepage</a></th>
                 <th><a href="Price List"> Price List</a></th>
                 <th><a href="Shop"> Shop</a></th>
                 <th><a href="Menu"> Menu</a></th>
