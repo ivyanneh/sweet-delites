@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +10,11 @@
     
 <div>
 
-    <h1>  WELCOME TO SWEET DELITES BAKERY SHOP</h1>
+    <h1><i> WELCOME TO SWEET DELITES BAKERY SHOP</i></h1>
+    <h2><i>Sweet Delicacies</i></h2>
     <p>Below is the menu with pictures showing the pastries offered</p>
 
-    <h2><i>Sweet Delicacies</i></h2>
+   
     <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images\Copy of Bakery Price Pricing List Menu Offers Card - Copy.jpeg" alt="Sweet Delicacies"width="800" height="500"/>
     <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images\download (1) - Copy.jpeg" alt="Sweet Delicacies"width="800" height="500"/>
   
