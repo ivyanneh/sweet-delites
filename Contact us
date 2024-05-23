@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SWEET DELITES</title>
+    <title>Contact us</title>
 </head>
 <body style="background-color: lightcoral;">
-    <a href="Order"> Order now</a>
+    
 <div>
-
+<a href="Order"> Order now</a>
 
     <h2><i>Sweet Delicacies</i></h2>
     <img src="C:\Users\ivymu\Desktop\Sweet Delicacies\download.jpeg" alt="Sweet Delicacies"width="800" height="500"/>
