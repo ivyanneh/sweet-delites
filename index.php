@@ -128,11 +128,24 @@
     background-color: white;
     border-radius: 25px;
     box-shadow: 2px 4px 8px 3px Gainsboro;
-    margin: 2%;
+    margin: 80px;
+    width: 320px;
     float: left;
+    
+
+    
+.polaroid:last-child {
+  /* Clear float for the last polaroid */
+  clear: both;
+}
+
+
 }
       
       div.container {
+        display: flex;
+       flex-wrap: wrap; /* Wrap polaroids to next line if needed */
+       justify-content: space-between;
         text-align: center;
         padding: 10px 20px;
       }
@@ -142,13 +155,13 @@
       
     <div class="polaroid">
     
-      <img src="Images.php/shop exterior.jpeg"alt="front view" style="width:100%">
+      <img src="Images.php/front view.jpeg"alt="front view" style="width:100%">
       <div class="container">
-      <p>front view</p>
+      <p>front view</p><br>
       </div>
     </div>
-    <div class="polaroid">
-      <img src="Images.php/interior.jpeg" alt="Interior" style="width:100%">
+        <div class="polaroid">
+      <img src="Images.php/interior.jpeg"alt="Interior" style="width:100%">
       <div class="container">
       <p>Interior</p>
       </div>
@@ -160,7 +173,7 @@
       </div>
     </div>
       <div class="polaroid">
-      <img src="Images.php/side view.jpeg" alt="Side view" style="width:100%">
+      <img src="Images.php/side view.jpeg" alt="Side view" style="width:100%" >
       <div class="container">
       <p>Side view</p>
       </div>
