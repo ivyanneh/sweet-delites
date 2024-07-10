@@ -1,0 +1,30 @@
+input[type=text], input[type=email], input[type=password], input[type=number]{
+    padding: 7px 15px;
+    width: 20%;
+    border: 2px solid #373737;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+input[type=submit]{
+    width: 30%;
+    padding: 12px 20px; /*12px 20px */
+    background-color: #2b2b2bd0;
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.8em;
+    box-sizing: border-box;
+    margin: 8px 0;
+
+}
+
+.contact_us label{
+    font-size: 1.8em;
+}
+
+textarea{
+    font-family: 'Courier New', Courier, monospace ;
+}
