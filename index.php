@@ -103,7 +103,15 @@
 </head>
 <body>
   <header class="header">
-    <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.php\Screenshot (67).png"alt="Sweet Delights Bakery Logo">  <h1>Sweet Delights Bakery</h1>
+ 
+  <?php
+$imagePath = "C:\Users\ivymu\Desktop\images\logo.png";
+$altText = "Sweet Delights Bakery Logo";
+echo "<img src='$imagePath' alt='$altText'>";
+?>
+
+   
+    <h1>Sweet Delights Bakery</h1>
   </header>
   
 
@@ -137,25 +145,26 @@
       <body>
       
     <div class="polaroid">
-      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\tasty spots __ sweet laurel bakery cake shop — britt maren (1).jpeg" alt="front view" style="width:100%">
+    
+      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.php\fron view.jpeg"alt="front view" style="width:100%">
       <div class="container">
       <p>front view</p>
       </div>
     </div>
     <div class="polaroid">
-      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\interior.jpeg" alt="Interior" style="width:100%">
+      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.php\interior.jpeg" alt="Interior" style="width:100%">
       <div class="container">
       <p>Interior</p>
       </div>
     </div>
     <div class="polaroid">
-      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\back view.jpeg" alt="Back view" style="width:100%">
+      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.php\back view.jpeg" alt="Back view" style="width:100%">
       <div class="container">
       <p>Back view</p>
       </div>
     </div>
       <div class="polaroid">
-      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\side view.jpeg" alt="Side view" style="width:100%">
+      <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.php\side view.jpeg" alt="Side view" style="width:100%">
       <div class="container">
       <p>Side view</p>
       </div>
