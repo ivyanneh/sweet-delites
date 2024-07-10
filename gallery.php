@@ -88,35 +88,35 @@
       
       
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\cupcakes.jpg" alt="cupcakes" style="width:100%">
+        <img src="Images.php/cupcakes.jpg" alt="cupcakes" style="width:100%">
         <div class="container">
         <p>Cupcakes</p>
         </div>
       </div>
       
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\cakes.jpg" alt="cakes" style="width:100%">
+        <img src="Images.php/cakes.jpg" alt="cakes" style="width:100%">
         <div class="container">
         <p>Cakes</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\topped cupcakes.jpg" alt="Topped cupcakes" style="width:100%">
+        <img src="Images.php/topped cupcakes.jpg" alt="Topped cupcakes" style="width:100%">
         <div class="container">
         <p>Topped cupcakes</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\custom orders.jpg" alt="Custom orders" style="width:100%">
+        <img src="Images.php/custom orders.jpg" alt="Custom orders" style="width:100%">
         <div class="container">
         <p>Custom orders</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\birthday cake.jpg" alt="Birthday cake" style="width:100%">
+        <img src="Images.php/birthday cake.jpg" alt="Birthday cake" style="width:100%">
         <div class="container">
         <p>Birthday cake</p>
         </div>
@@ -125,35 +125,35 @@
     
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\bread.jpg" alt="Breads" style="width:100%">
+        <img src="Images.php/bread.jpg" alt="Breads" style="width:100%">
         <div class="container">
         <p>Breads</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\chocolate cake.jpg" alt="Chocolate cake" style="width:100%">
+        <img src="Images.php/chocolate cake.jpg" alt="Chocolate cake" style="width:100%">
         <div class="container">
         <p>Chocolate cake</p>
         </div>
       </div>
       
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\cookies.jpeg" alt="Cookies" style="width:100%">
+        <img src="Images.php/cookies.jpeg" alt="Cookies" style="width:100%">
         <div class="container">
         <p>Cookies</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\themed cookies.jpeg" alt="Themed cookies" style="width:100%">
+        <img src="Images.php/themed cookies.jpeg" alt="Themed cookies" style="width:100%">
         <div class="container">
         <p>Themed cookies</p>
         </div>
       </div>
 
       <div class="polaroid">
-        <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\muffins.jpeg" alt="Muffins" style="width:100%">
+        <img src="Images.php/muffins.jpeg" alt="Muffins" style="width:100%">
         <div class="container">
         <p>Muffins</p>
         </div>
@@ -163,6 +163,3 @@
    </div>  
 </body>
 </html>
-
-
- 
