@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="sweet delites" href="index.html">
+<link rel="stylesheet" href="CSS\styles.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title style="color: red">SWEET DELITES</title>
@@ -12,30 +12,7 @@
     <a href= "order.html"> Order now </a>
 <div>
     
-       <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.php" >Home</a></li>
-            <li><a href="about.php" >About</a></li>
-            <li><a href="team.php">Team</a></li>
-            <li><a href="products.php">Products</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="signup.php">Sign Up</a></li>
-            <div class="dropdown">
-                <button class="dropbtn">Services
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="training.php">Training</a>
-                  <a href="packaging.php">Packaging</a>
-                  <a href="education.php">Education</a>
-                </div>
-              </div>
-        </ul>
-    </nav>
-
-   
-<style>
+     <style>
 h1{
     color:slateblue ;
     font-family: monospace;
@@ -47,7 +24,54 @@ p{
     font-size: 100%;
 
 }
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="main">
+  <h2>Sidenav Example</h2>
+  <p>This sidenav is always shown.</p>
+</div>
+   
 
 
 </style>
@@ -61,51 +85,6 @@ p{
     <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\PASTELERÍA EL CIGNE (SINGULAR SHOP) (3).jpeg" alt="Sweet Delicacies"width="800" height="500",border="3"/>
    
  <style>
-.button {
-  a:link {
-        border: none;
-        background-color:lightgray;
-        color: black;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-left: 15px;
-        cursor: pointer;
-      }
-      
-      a:hover, a:active {
-        background-color: gray;
-      }
-
-.button1 {border-radius: 50%;}
-.button2 {border-radius: 50%;}
-.button3 {border-radius: 50%;}
-.button4 {border-radius: 50%;}
-.button5 {border-radius: 50%;}
-
-</style>
-</head>
-</body>
-
-<div>
-  
-    
-      
-    
-                <button class="button button1"><a href="index.html"> homepage</a></button>
-                <button class="button button2"><a href="price_list.html"> Price List</a>
-                <button class="button button3"><a href="order.html"> Order</a></button>
-                <button class="button button4"><a href="menu.html"> Menu</a></button>
-                <button class="button button5"><a href="about_us.html">About us</a></button>
-                <button class="button button6"><a href="custom_ orders.html"> Custom orders</a></button>
-                
-                <button class="button button7"><a href="gallery.html"> Gallery</a></button>
-                <button class="button button8"><a href="compliments_and_complains.html"> compliments and complains</a></button>
-                
-                <button class="button button9"><a href="contact_us.html"> Contact us</a></button>
-
 </div>  
 </body>
 </html>
