@@ -169,10 +169,26 @@
               </div>
               <div class="row">
                 <div class="col-25">
+                  <label for="orderdate">Order date</label>
+                </div>
+                <div class="col-75">
+                  <input type="date" id="orderdate" name="orderdate" placeholder="Date of order..">
+                </div>
+              </div>
+                <div class="row">
+                <div class="col-25">
                   <label for="additional details">Additional details </label>
                 </div>
                 <div class="col-75">
                   <textarea id="additional details " name="additional details " placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="totalprice">Total price</label>
+                </div>
+                <div class="col-75">
+                  <input type="varchar" id="totalprice" name="totalprice" placeholder="total price.." style="height:40px"></textarea>
                 </div>
               </div>
                <br>
