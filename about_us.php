@@ -65,6 +65,7 @@
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background-color: lightgrey;
     }
     h1 {
       color: #c72c4f; /* Deep pink */
