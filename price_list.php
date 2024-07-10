@@ -65,7 +65,7 @@
 
     <h1><i>Sweet Delicacies</i></h1>
     <p>Below is a pictoral representation of our price list</p>
-    <img src="C:\Users\ivymu\OneDrive\Documents\GitHub\sweet-delites\Images.html\Price list.png" alt="Sweet Delicacies"width="800" height="500",border="3"/>
+    <img src="Images.php/Price list.png" alt="Sweet Delicacies"width="800" height="500",border="3"/>
   
     
 </div>
