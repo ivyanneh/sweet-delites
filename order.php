@@ -192,9 +192,44 @@
                 </div>
               </div>
                <br>
-              <div class="row">
-                <input type="order" value="Order">
-              </div>
+               <div class="row">
+    <button id="orderButton" type="button">Order</button>
+</div>
+
+<script>
+    const orderButton = document.getElementById("orderButton");
+    orderButton.addEventListener("click", function() {
+               alert("Order submitted!");
+    });
+</script>
+              <br>
+              <?php
+include '.vscode/dbconnection.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "create") {
+    $Full_name = $_POST[' Full_name '];
+    $Cake_type = $_POST[' Cake_type '];
+    $Quantity = $_POST[' Quantity '];
+    $Order_date = $_POST[' Order_date'];
+    $Additional_details = $_POST[' Additional_details '];
+    $Total_price = $_POST[' Total_price '];
+
+    $stmt = $conn->prepare("INSERT INTO orders(Full_name, Cake_type, Quantity, Order_date, Additional_details, Total_price)
+    VALUES (?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssissi", $Full_name, $Cake_type, $Quantity, $Order_date, $Additional_details, $Total_price);
+    $stmt->execute();
+    echo "Order submitted!";
+    $stmt->close();
+
+    $conn->close();
+}
+?>
+
+
+
+
+
+
               </form>
             </div>
             
