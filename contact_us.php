@@ -62,8 +62,7 @@
 
            <div class="main">
     <h2><i>Sweet Delicacies</i></h2>
-    <img src="C:\Users\ivymu\Desktop\Sweet Delicacies\download.jpeg" alt="Sweet Delicacies"width="800", height="500",border="3"/>
-    
+   
     <p>
         From our famous chocolate donuts to our hearty impecabble white loaves, each item tells a story of tradition and passion.<br>
         Kindly Contact us 🥳:
@@ -71,7 +70,7 @@
        
 
         <a href="email: sweetdelites@gmail.com">🎂sweetdelites@gmail.com</a><br>
-        <a href="email: 🎂+25431114200 / 🎂+25422493166">🎂+25431114200 / 🎂+25422493166</a>
+        <a href="email: 🎂+254100352557 / 🎂+254114360820">🎂+254100352557 / 🎂+254114360820</a>
           
     </p>
 
