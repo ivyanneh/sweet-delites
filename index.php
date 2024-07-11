@@ -104,7 +104,7 @@
 <body>
   <header class="header">
  
-  <img src= "Images.php/logo.png" alt="logo" style="width:10%">
+  <img src= "Images.php/logo.png" alt="logo" style="width:10%, height:20">
 
    
     <h1>Sweet Delites Bakery</h1>
