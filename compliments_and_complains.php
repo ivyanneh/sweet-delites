@@ -66,7 +66,7 @@
 
 <div class="main">
     <h1>Compliments and complains</h1>
-    <img src="C\U:sers\ivymu\Desktop\Sweet Delicacies\download.jpeg" alt="Sweet Delicacies" width="800", height="500",border="3"/>
+   
     <style>
         * {
   box-sizing: border-box;
@@ -184,9 +184,42 @@ input[type=submit]:hover {
     </div>
   </div>
    <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
+
+   <div class="row">
+    <button id="submitButton" type="button">Submit</button>
+</div>
+
+<script>
+    const submitButton = document.getElementById("submitButton");
+    submitButton.addEventListener("click", function() {
+               alert("submitted!");
+    });
+</script>
+              <br>
+  <?php
+include '.vscode/dbconnection.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['action'] == "create") {
+    $First_name = $_POST[' First_name '];
+    $Last_name = $_POST[' Last_name '];
+    $Email = $_POST[' Email '];
+    $Compliment = $_POST[' Compliment'];
+    $Complaint = $_POST[' Complaint '];
+    
+
+    $stmt = $conn->prepare("INSERT INTO orders(Full_name, Cake_type, Quantity, Order_date, Additional_details, Total_price)
+    VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("sssss", $First_name, $Last_name, $Email , $Compliment, $Complaint);
+    $stmt->execute();
+    echo " submitted!";
+    $stmt->close();
+
+    $conn->close();
+}
+?>
+
+
+
   </form>
 </div>
 
