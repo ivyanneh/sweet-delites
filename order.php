@@ -108,14 +108,14 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="index.php">Homepage</a>
-        <a href="price_list.php">Price List</a>
-        <a href="order.php">Order</a>
-        <a href="menu.php">Menu</a>
-        <a href="about_us.php">About Us</a>
-        <a href="gallery.php">Gallery</a>
-        <a href="compliments_and_complains.php">Compliments and Complaints</a>
-        <a href="contact_us.php">Contact Us</a>
+        <a href="index.php">homepage</a>
+        <a href="price_list.php">price List</a>
+        <a href="order.php">order</a>
+        <a href="menu.php">menu</a>
+        <a href="about_us.php">about Us</a>
+        <a href="gallery.php">gallery</a>
+        <a href="compliments_and_complains.php">compliments and Complaints</a>
+        <a href="contact_us.php">contact Us</a>
     </div>
 
     <div class="main">

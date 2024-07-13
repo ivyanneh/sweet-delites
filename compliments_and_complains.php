@@ -191,7 +191,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     }
 
     // Prepare the SQL statement
-    $sql = "INSERT INTO compliments_and_complaints (firstname, lastname, email, compliment, complaint) VALUES (?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO complaints_and_compliments (firstname, lastname, email, compliment, complaint) VALUES (?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
 
     // Check if prepare() failed
