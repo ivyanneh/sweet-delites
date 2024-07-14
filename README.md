@@ -19,7 +19,9 @@ If you have any issues kindly reach out to me here or on email at ivymumbua21@gm
 
   Gallery Characters                   
 :-----------------------------------------------------:
-![](https://github.com/ivyanneh/sweet-delites/blob/main/gallery.png)  
+![](https://github.com/ivyanneh/sweet-delites/blob/main/gallery.png) 
+![](https://Images.php/Screenshot 2024-07-14 182104.png)  
+
 
 ## Contributing
 Pull requests are not welcome for now. 

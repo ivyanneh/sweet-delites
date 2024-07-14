@@ -174,14 +174,7 @@
                         <textarea id="additional_details" name="additional_details" placeholder="Write something.." style="height:200px"></textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="totalprice">Total Price</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="totalprice" name="totalprice" placeholder="Total price.." required>
-                    </div>
-                </div>
+                                   
                 <br>
                 <div class="row">
                     <button id="orderButton" type="submit" name="submit">Order</button>
@@ -192,7 +185,12 @@
         <script>
             const orderButton = document.getElementById("orderButton");
             orderButton.addEventListener("click", function() {
-                alert("Order submitted!");
+                if (form is filled) {
+                    alert("Order submitted!");
+                } else {
+                    
+                }
+                alert("Kindly fill in the form!");
             });
         </script>
     </div>
