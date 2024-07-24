@@ -20,7 +20,8 @@ If you have any issues kindly reach out to me here or on email at ivymumbua21@gm
   Gallery Characters                   
 :-----------------------------------------------------:
 ![](https://github.com/ivyanneh/sweet-delites/blob/main/gallery.png) 
-![](https://Images.php/Screenshot 2024-07-14 182104.png)  
+ 
+ 
 
 
 ## Contributing
@@ -32,6 +33,6 @@ Pull requests are not welcome for now.
 
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 >
-> * [PayPal](https://paypal.me/KenMusembi/)
+> * [Mpesa](https://paypal.me/KenMusembi/)
 
 > You can also nominate me for Github Star developer program  [here](https://stars.github.com/nominate)
